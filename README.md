@@ -6,13 +6,13 @@ These Docker images provide a minimal setup to test GUI X11-Forwarding inside Do
 
 You can run these Docker containers using the following commands:
 
-### Alpine / ± 13.9MB
+### Alpine / ± 6.79MB
 
 ```bash
 docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix ferri/xeyes:alpine
 ```
 
-### Ubuntu / ± 97.9MB
+### Ubuntu / ± 35.5MB
 
 ```bash
 docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix ferri/xeyes:ubuntu
